@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <title>Lia</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(/img/img\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: 240vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    text-align: center;
+    animation: fade-in 2s;
+}
+iframe{
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fade-in 2s;
+}
+ /* efeito de border em rgb rainbow iframe*/
+ iframe {
+    border: 3px solid rgb(255, 0, 0); /* Red border */
+    animation: border-color-change 1s infinite;
+ }
+
+    /* Define the animation */
+    @keyframes border-color-change {
+        0% { border-color: rgb(255, 0, 0); }
+        50% { border-color: rgb(255, 255, 0); }
+        100% { border-color: rgb(0, 255, 0); }
+    }
+    /* Define the animation */
+        @keyframes border-width-change {
+        0% { border-width: 3px; }
+        50% { border-width: 5px; }
+        100% { border-width: 3px; }
+    }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- -->
+        <h1>Espero que tenha gostado rs</h1>
+        <iframe width="1128" height="635" 
+        src="https://www.youtube.com/embed/hxulibruNwg" 
+        title="Mas eu te chamei de alimento! | DARLING in the FRANXX (Dublado)" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+        </iframe>
+    </header>
+   
+</body>
+</html>
