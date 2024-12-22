@@ -1,30 +1,61 @@
-@media (max-width: 900px) {
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-    }
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(/img/img\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste para mobile */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+a {
+    color: palevioletred;
+}
+
+a:hover {
+    color: rgb(35, 161, 219);
+}
+
+.txtIndex {
+    text-align: center;
+    color: #333;
+    margin: 20px; /* Ajuste para mobile */
+    font-size: 28px; /* Tamanho reduzido para telas menores */
+}
+
+.txtIndex:hover {
+    color: white;
+    transition: background 0.5s, color 0.5s;
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
     body {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-image: url(/img/img\ 4.jpg);
-        background-repeat: no-repeat;
-        background-size:40vh;
-        background-position: center;
+        background-size: 150vh; /* Ajuste para telas menores */
     }
-    a{
-        color: palevioletred;
-    } a:hover{
-        color: rgb(35, 161, 219);
+
+    .txtIndex {
+        margin: 10px; /* Menor espaçamento para telas pequenas */
+        font-size: 24px; /* Texto mais compacto */
     }
-    .txtIndex{
-        text-align: center;
-        color: #000000;
-        margin-top: 0vh; 
-        font-size: 10px;
-    } .txtIndex:hover{
-        color: rgb(0, 0, 0);
-        transition: background 0.5s, color 0.5s;
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column; /* Melhor ajuste para telas muito pequenas */
+        padding: 10px;
+    }
+
+    .txtIndex {
+        font-size: 20px; /* Fonte ainda menor para melhor legibilidade */
     }
 }

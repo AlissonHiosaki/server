@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(/img/img\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column; /* Alinhar os itens em coluna para telas menores */
+    padding: 10px; /* Adiciona espaçamento interno */
+}
+
+a {
+    color: #23a1db;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.txtIndex {
+    text-align: center;
+    color: #333;
+    font-size: 30px; /* Reduzido para telas menores */
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid #23a1db;
+    padding: 10px; /* Ajuste do padding */
+    border-radius: 20px; /* Reduzido para telas menores */
+    margin: 20px 0; /* Espaçamento em torno do elemento */
+}
+.txtIndex:hover {
+    color: white;
+    border: 2px solid palevioletred;
+    background: palevioletred;
+    backdrop-filter: none;
+    transition: background 0.5s, color 0.5s;
+}
+
+p {
+    color: #ffffff;
+    font-size: 16px; /* Reduzido para melhor leitura em telas pequenas */
+    text-align: center;
+    margin-top: 10px; /* Reduzido o espaçamento superior */
+    border: 2px solid palevioletred;
+    background: palevioletred;
+    backdrop-filter: none;
+    border-radius: 15px; /* Ajustado para suavidade */
+    padding: 8px; /* Ajustado para telas menores */
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .txtIndex {
+        font-size: 24px; /* Reduz ainda mais o tamanho da fonte */
+        padding: 8px;
+    }
+
+    p {
+        font-size: 14px; /* Tamanho menor para textos */
+        padding: 6px;
+    }
+
+    body {
+        background-size: 150%; /* Ajusta o tamanho da imagem de fundo */
+    }
+}
