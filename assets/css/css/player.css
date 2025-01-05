@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 15%;
+    height: auto;
+    margin-top: 5vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+h2{
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 40px;
+    box-shadow: inset 0 0 8px 4px #3396d7;
+    background-color: #216da0;
+}
+
+body{
+    background-color: #000000;
+}
+iframe{
+    width: 90%;
+    height: 70vh;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    border-radius: 20px;
+    background-color: #212121;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5vh;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 2px solid #3396d7;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10vh;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+    &:hover{
+        color: #ffffff;
+        text-decoration: underline;
+        
+    }
+}
+
+span > button{
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: #3396d7;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 10vh;
+
+}
+
+span > button:hover{
+    background-color: #216da0;
+}
+
+body{
+    background-image: url(https://wallpapers.com/images/hd/horror-movie-collage-2560-x-1600-7rsxip7198v2wynq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
