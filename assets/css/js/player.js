@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         loadingScreen.classList.add("hidden"); // Esconde a tela de loading
         loginScreen.classList.remove("hidden"); // Mostra a tela de login
-    }, 2000); // Ajuste o tempo conforme necessário (em milissegundos)
+    }, 1000); // Ajuste o tempo conforme necessário (em milissegundos)
 });
