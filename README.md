@@ -1,17 +1,5 @@
 ![logo_text.png](https://server.hiosaki.com.br/index.php?explorer/share/file&hash=ed7aXkjiZySbZ6p9a3UEBxAhvUM5Q8bkDRfEqw2mhcTb0qlPdGxRB227LjHLnZ9FuvedRNmmOmVzQWE0aurcs-fpBWNUrbN8nvNStTqc9XsOTE_ydW-3r8Ph&name=/logo_text.png)
-<style>
-*{
-    body:0;
-    font-style:bold;
-}
-img{
-    width:300px;
-}
-p{
-    color:#3f80f1;
-}
 
-</style>
 
 # Sistema de vendas com banco de dados `MySQL`
 
