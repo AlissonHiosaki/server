@@ -29,13 +29,13 @@ Aqui são minhas aplicações web que eu crio
 ### 1. Clonar Repositório
 
 ```bash
-git clone https://github.com/seuusuario/seuprojeto.git
+git clone https://github.com/AlissonHiosaki/server.git
 ```
 
 ### 2. Entrar na Pasta
 
 ```bash
-cd seuprojeto
+cd appweb
 ```
 
 ### 3. Configurar Banco de Dados
